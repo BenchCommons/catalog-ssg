@@ -32,7 +32,7 @@ Versions come from [`generators.json`](generators.json); content type and output
 2. Write `<name>.dockerfile` following the skeleton in `docs/specs/001-canonical-build-runner/plan.md` (`ubuntu:24.04`, architecture via `dpkg --print-architecture`, pinned generator version).
 3. Add a minimal site in `src/` and a `benchmark_config.json`; set `output_folder` and `output_glob` so the glob matches exactly one file per post.
 4. Add `generator.json` and run `python3 tools/build_index.py`.
-5. Run `./ssgberk --test <name> -nf 10` from [benchmark-tool](https://github.com/ssgberk/benchmark-tool) with this repo checked out as `frameworks/`.
+5. Run `./ssgberk --test <name> -nf 10` from [tools-benchmark](https://github.com/ssgberk/benchmark-tool) with this repo checked out as `frameworks/`.
 
 ## CI
 

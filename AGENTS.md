@@ -3,7 +3,7 @@
 Follow the org-wide rules in [BenchCommons/.github AGENTS.md](https://github.com/BenchCommons/.github/blob/main/AGENTS.md) and the decisions in [.product](https://github.com/BenchCommons/.product). This file only adds what is specific to this repo.
 
 ## Role
-Catalog (`catalog-*`): static site generators measured by benchmark-tool (renamed from `ssg-frameworks`, see issue #203).
+Catalog (`catalog-*`): static site generators measured by tools-benchmark (renamed from `ssg-frameworks`, see issue #203).
 
 ## Layout
 - `<Lang>/<id>/` contains:
@@ -16,5 +16,5 @@ Catalog (`catalog-*`): static site generators measured by benchmark-tool (rename
 - `reference/` holds the golden output for conformance.
 
 ## Rules
-- The catalog contract is owned by benchmark-tool (benchmark-tool#29). Change it there first.
+- The catalog contract is owned by tools-benchmark (tools-benchmark#29). Change it there first.
 - CI smoke-tests only the changed generators, on amd64 and arm64.
