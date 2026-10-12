@@ -71,7 +71,7 @@ jobs:
 
   # Parallelism: every matrix job runs on its own runner (own Docker daemon), so the
   # toolset's fixed container name cannot collide and no max-parallel is needed.
-  # Revisit once benchmark-tool PR #11 (concurrency-safe runs) is merged.
+  # Revisit once tools-benchmark PR #11 (concurrency-safe runs) is merged.
   smoke:
     needs: changed
     if: needs.changed.outputs.tests != '[]'
