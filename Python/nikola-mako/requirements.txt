@@ -1,6 +1,6 @@
 babel==2.18.0
 blinker==1.9.0
-certifi==2026.7.22
+certifi==2026.10.18
 charset-normalizer==3.5.2
 docutils==0.23
 doit==0.37.0
