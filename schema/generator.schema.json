@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/schema/generator.schema.json",
+  "$id": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/schema/generator.schema.json",
   "title": "SSGBerk generator metadata (generator.json)",
   "description": "Curated, descriptive metadata for one generator in <Lang>/<name>/generator.json. Derived fields (path, version, benchmark settings, files) are added by tools/build_index.py and must not appear here. schemaVersion 1.0.0.",
   "type": "object",

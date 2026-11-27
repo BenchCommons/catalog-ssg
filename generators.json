@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedFrom": "327bd5e6816dce7e4e1e4063a5c15126fa919e20",
-  "source": "https://github.com/ssgberk/ssg-frameworks",
+  "generatedFrom": "6b76f1be0ac9cb4087e595c09b8990ab6df73f7c",
+  "source": "https://github.com/BenchCommons/catalog-ssg",
   "generators": [
     {
       "id": "analog",
@@ -45,10 +45,10 @@
       },
       "notes": "firstRelease from npm @analogjs/platform creation (2022-11-17). Markdown rendering is the official @analogjs/content package (marked). Built with static prerender of every post route and no SSR server.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/analog/analog.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/analog/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/analog/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/analog/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/analog/analog.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/analog/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/analog/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/analog/generator.json"
       }
     },
     {
@@ -90,10 +90,10 @@
       },
       "notes": "Antora reads only AsciiDoc from git content sources. The benchmark posts are the canonical markdown; a local extension (ssgberk-md-adapter.js) converts them to AsciiDoc in memory inside the single Antora process and generates the index page. The UI bundle is a minimal local zip built in the image.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/antora/antora.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/antora/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/antora/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/antora/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/antora/antora.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/antora/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/antora/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/antora/generator.json"
       }
     },
     {
@@ -134,10 +134,10 @@
       },
       "notes": "GitHub's license API returns NOASSERTION; MIT verified from the LICENSE file, packages/astro/package.json and the npm registry. firstRelease from npm astro creation (2021-03-13); the oldest GitHub release is 2021-08-05. MDX is the official @astrojs/mdx integration; this setup uses Markdown only.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/astro/astro.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/astro/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/astro/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/astro/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/astro/astro.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/astro/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/astro/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/astro/generator.json"
       }
     },
     {
@@ -177,10 +177,10 @@
       },
       "notes": "Bridgetown 2.2 requires Ruby 3.3 or newer, so the image builds Ruby 3.4.9 from source (Ubuntu 24.04 ships 3.2). The site has no frontend bundler (no esbuild or Node). Markdown via kramdown with the Rouge highlighter off. firstRelease from the oldest RubyGems version, 0.1.0 (2020-04-07).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/bridgetown/bridgetown.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/bridgetown/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/bridgetown/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/bridgetown/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/bridgetown/bridgetown.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/bridgetown/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/bridgetown/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/bridgetown/generator.json"
       }
     },
     {
@@ -218,10 +218,10 @@
       },
       "notes": "Installed from Packagist as cecil/cecil.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/PHP/cecil/cecil.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/PHP/cecil/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/PHP/cecil/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/PHP/cecil/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/PHP/cecil/cecil.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/PHP/cecil/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/PHP/cecil/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/PHP/cecil/generator.json"
       }
     },
     {
@@ -257,10 +257,10 @@
       },
       "notes": "Posts are generated without front matter (Cobalt rejects the canonical keys); date and title come from the file name. firstRelease from the first cobalt-bin crate on crates.io (0.2.0, 2016-06-25).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/cobalt/cobalt.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/cobalt/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/cobalt/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/cobalt/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/cobalt/cobalt.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/cobalt/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/cobalt/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/cobalt/generator.json"
       }
     },
     {
@@ -299,10 +299,10 @@
       },
       "notes": "Posts start with an EDN metadata map instead of YAML front matter; the timed build converts the generated front matter in one awk pass. Tag, archive, RSS and sitemap output cannot be switched off.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Clojure/cryogen/cryogen.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Clojure/cryogen/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Clojure/cryogen/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Clojure/cryogen/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Clojure/cryogen/cryogen.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Clojure/cryogen/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Clojure/cryogen/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Clojure/cryogen/generator.json"
       }
     },
     {
@@ -340,10 +340,10 @@
       },
       "notes": "Benchmarked with a minimal custom template (single conceptual page template, no navbar, TOC, search or affix) instead of the default template. DocFX cannot list pages from a page, so build_command first runs mkindex.sh, which writes index.md from the posts' front matter (part of the timed build).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/CSharp/docfx/docfx.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/CSharp/docfx/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/CSharp/docfx/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/CSharp/docfx/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/CSharp/docfx/docfx.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/CSharp/docfx/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/CSharp/docfx/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/CSharp/docfx/generator.json"
       }
     },
     {
@@ -383,10 +383,10 @@
       },
       "notes": "firstRelease from npm @docmd/core creation (2026-02-12). This setup pins @docmd/core 0.9.7 and disables every bundled plugin (search, seo, sitemap, analytics, llms, mermaid, git, openapi, okf, ai), the sidebar, header, breadcrumbs, page navigation and options menu; each post renders as its own page.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/docmd/docmd.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/docmd/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/docmd/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/docmd/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/docmd/docmd.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/docmd/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/docmd/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/docmd/generator.json"
       }
     },
     {
@@ -430,10 +430,10 @@
       },
       "notes": "Version 3.10.2. Blog-only setup: docs plugin off, blog at /posts with a bare Layout override (no navbar/footer), prev/next overridden to null, tags cleared via processBlogPosts (no tag pages), built-in list page emptied, and a small local plugin feeding the index page.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/docusaurus/docusaurus.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/docusaurus/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/docusaurus/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/docusaurus/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/docusaurus/docusaurus.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/docusaurus/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/docusaurus/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/docusaurus/generator.json"
       }
     },
     {
@@ -474,10 +474,10 @@
       },
       "notes": "firstRelease from npm dumi creation (2019-12-27). This setup pins dumi 2.4.50 and overrides the default theme layout (.dumi/theme/layouts/DocLayout) with a bare one: no navbar, sidebar, TOC, search or footer; it renders only the post, and the index page lists all posts.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/dumi/dumi.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/dumi/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/dumi/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/dumi/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/dumi/dumi.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/dumi/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/dumi/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/dumi/generator.json"
       }
     },
     {
@@ -522,10 +522,10 @@
       },
       "notes": "The upstream repository was renamed from 11ty/eleventy to 11ty/buildawesome (the project is now branded Build Awesome (Eleventy)); the npm package is still @11ty/eleventy. GitHub's homepage field is https://build.awesome.me/; the Eleventy docs site 11ty.dev, also listed in the package.json homepage, is used here. firstRelease from the oldest GitHub release (v0.2.2, 2018-01-09) and npm 0.2.0 (2018-01-09). Nunjucks is used here; Eleventy also supports other template languages.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/eleventy/eleventy.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/eleventy/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/eleventy/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/eleventy/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/eleventy/eleventy.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/eleventy/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/eleventy/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/eleventy/generator.json"
       }
     },
     {
@@ -561,10 +561,10 @@
       },
       "notes": "Built from the Hackage release with GHC 9.8; the full-text search index is left empty (a stub replaces the Stork binary) and the Tailwind CSS compile step runs as in a normal build.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Haskell/emanote/emanote.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Haskell/emanote/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Haskell/emanote/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Haskell/emanote/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Haskell/emanote/emanote.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Haskell/emanote/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Haskell/emanote/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Haskell/emanote/generator.json"
       }
     },
     {
@@ -600,10 +600,10 @@
       },
       "notes": "Franklin evaluates +++ front matter as Julia code, so the benchmark posts carry no front matter and titles come from file names.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Julia/franklin/franklin.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Julia/franklin/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Julia/franklin/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Julia/franklin/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Julia/franklin/franklin.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Julia/franklin/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Julia/franklin/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Julia/franklin/generator.json"
       }
     },
     {
@@ -643,10 +643,10 @@
       },
       "notes": "Markdown is handled by the official gatsby-transformer-remark plugin (used here); MDX by gatsby-plugin-mdx.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/gatsby/gatsby.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/gatsby/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/gatsby/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/gatsby/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/gatsby/gatsby.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/gatsby/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/gatsby/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/gatsby/generator.json"
       }
     },
     {
@@ -684,10 +684,10 @@
       },
       "notes": "Pandoc is linked into the site binary, so Markdown needs no external helper.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Haskell/hakyll/hakyll.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Haskell/hakyll/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Haskell/hakyll/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Haskell/hakyll/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Haskell/hakyll/hakyll.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Haskell/hakyll/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Haskell/hakyll/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Haskell/hakyll/generator.json"
       }
     },
     {
@@ -725,10 +725,10 @@
       },
       "notes": "firstRelease from npm hexo creation (2012-10-07); the oldest GitHub release is 1.0.0 (2013-07-04). Markdown via hexo-renderer-marked and EJS via hexo-renderer-ejs, both first-party plugins.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/hexo/hexo.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/hexo/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/hexo/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/hexo/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/hexo/hexo.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/hexo/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/hexo/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/hexo/generator.json"
       }
     },
     {
@@ -768,10 +768,10 @@
       },
       "notes": "contentFormats lists formats Hugo renders without external helpers; AsciiDoc, Pandoc and reStructuredText need external executables.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/hugo/hugo.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/hugo/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/hugo/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/hugo/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/hugo/hugo.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/hugo/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/hugo/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/hugo/generator.json"
       }
     },
     {
@@ -810,10 +810,10 @@
       },
       "notes": "firstRelease from npm iles creation (2021-09-09). This setup uses a bare default layout rendering the post title and content, an index page listing every post via import.meta.glob, srcDir set to the project root, and remark-gfm for tables (not enabled by default).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/iles/iles.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/iles/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/iles/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/iles/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/iles/iles.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/iles/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/iles/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/iles/generator.json"
       }
     },
     {
@@ -851,10 +851,10 @@
       },
       "notes": "Ink publishes no versions: its only release is the rolling nightly tag, so the image builds upstream commit f9aeb2b (2026-06-08) and the version is recorded as nightly-f9aeb2b. The license is CC BY-NC 4.0 per the README (no LICENSE file; GitHub reports none). firstRelease is the repository creation year (2015). The build command converts the generated posts for Ink (drops the leading front matter fence, rewrites the date) in one awk pass before ink build.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/ink/ink.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/ink/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/ink/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/ink/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/ink/ink.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/ink/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/ink/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/ink/generator.json"
       }
     },
     {
@@ -898,10 +898,10 @@
       },
       "notes": "Uses a JBake header (key=value then ~~~~~~) rather than YAML front matter.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Java/jbake/jbake.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Java/jbake/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Java/jbake/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Java/jbake/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Java/jbake/jbake.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Java/jbake/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Java/jbake/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Java/jbake/generator.json"
       }
     },
     {
@@ -941,10 +941,10 @@
       },
       "notes": "firstRelease from the oldest git tag v0.1.3 (2008-12-07).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/jekyll/jekyll.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/jekyll/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/jekyll/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/jekyll/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/jekyll/jekyll.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/jekyll/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/jekyll/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/jekyll/generator.json"
       }
     },
     {
@@ -983,10 +983,10 @@
       },
       "notes": "Installed from Packagist as tightenco/jigsaw.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/PHP/jigsaw/jigsaw.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/PHP/jigsaw/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/PHP/jigsaw/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/PHP/jigsaw/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/PHP/jigsaw/jigsaw.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/PHP/jigsaw/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/PHP/jigsaw/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/PHP/jigsaw/generator.json"
       }
     },
     {
@@ -1023,10 +1023,10 @@
       },
       "notes": "Laika is used as a library through laika-io; the Helium theme is not used.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Scala/laika/laika.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Scala/laika/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Scala/laika/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Scala/laika/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Scala/laika/laika.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Scala/laika/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Scala/laika/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Scala/laika/generator.json"
       }
     },
     {
@@ -1064,10 +1064,10 @@
       },
       "notes": "Lektor reads one contents.lr per page, so the timed build_command first converts each generated posts/<name>.md into content/posts/<name>/contents.lr with bash builtins only (one mkdir, one read and one printf per post, no per-post forks). Minimal custom models and templates; build state is written to .lektor-cache.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/lektor/lektor.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/lektor/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/lektor/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/lektor/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/lektor/lektor.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/lektor/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/lektor/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/lektor/generator.json"
       }
     },
     {
@@ -1106,10 +1106,10 @@
       },
       "notes": "Runs on Deno, not Node.js. Lume is imported from CDN URL https://cdn.jsdelivr.net/gh/lumeland/lume@3.3.2/ (pinned in src/deno.json, lockfile src/deno.lock); all remote and npm modules are cached into DENO_DIR at image build, so the timed `deno task build` (run with --cached-only --frozen) is offline. Post URLs keep the date prefix of the file name (/posts/YYYY-MM-DD-N/). Vento is Lume's default template engine.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/lume/lume.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/lume/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/lume/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/lume/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/lume/lume.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/lume/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/lume/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/lume/generator.json"
       }
     },
     {
@@ -1145,10 +1145,10 @@
       },
       "notes": "lustre_ssg ships a Djot renderer only; Markdown posts are parsed with the mork package and the front matter by the site's own Gleam code.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Gleam/lustre-ssg/lustre-ssg.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Gleam/lustre-ssg/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Gleam/lustre-ssg/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Gleam/lustre-ssg/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Gleam/lustre-ssg/lustre-ssg.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Gleam/lustre-ssg/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Gleam/lustre-ssg/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Gleam/lustre-ssg/generator.json"
       }
     },
     {
@@ -1184,10 +1184,10 @@
       },
       "notes": "Benchmarked with minimal templates (base, content, list, group) and search, JSON feeds, sitemap, urls.json, Markdown sources, table of contents, related posts and next/previous links disabled. Marmite still writes tag, author, archive, stream and series pages, RSS feeds and its stock static files; none can be turned off by configuration. firstRelease from the first GitHub release (0.1.4, 2024-10-20).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/marmite/marmite.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/marmite/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/marmite/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/marmite/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/marmite/marmite.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/marmite/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/marmite/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/marmite/generator.json"
       }
     },
     {
@@ -1223,10 +1223,10 @@
       },
       "notes": "Benchmarked with a minimal theme/index.hbs (no sidebar), search, print page and hosted fonts disabled. The build command regenerates SUMMARY.md and the index (README.md) from the post files before mdbook build. firstRelease from the first GitHub release (v0.0.1, 2015); the sidebar table of contents file (toc.html) is still emitted.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/mdbook/mdbook.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/mdbook/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/mdbook/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/mdbook/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/mdbook/mdbook.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/mdbook/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/mdbook/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/mdbook/generator.json"
       }
     },
     {
@@ -1262,10 +1262,10 @@
       },
       "notes": "Uses @metalsmith/markdown, @metalsmith/layouts and @metalsmith/permalinks with jstransformer-handlebars (Handlebars: https://github.com/handlebars-lang/handlebars.js, MIT).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/metalsmith-handlebars/metalsmith-handlebars.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/metalsmith-handlebars/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/metalsmith-handlebars/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/metalsmith-handlebars/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/metalsmith-handlebars/metalsmith-handlebars.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/metalsmith-handlebars/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/metalsmith-handlebars/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/metalsmith-handlebars/generator.json"
       }
     },
     {
@@ -1301,10 +1301,10 @@
       },
       "notes": "Uses @metalsmith/markdown, @metalsmith/layouts and @metalsmith/permalinks with jstransformer-nunjucks (Nunjucks: https://github.com/mozilla/nunjucks, BSD-2-Clause).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/metalsmith-nunjucks/metalsmith-nunjucks.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/metalsmith-nunjucks/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/metalsmith-nunjucks/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/metalsmith-nunjucks/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/metalsmith-nunjucks/metalsmith-nunjucks.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/metalsmith-nunjucks/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/metalsmith-nunjucks/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/metalsmith-nunjucks/generator.json"
       }
     },
     {
@@ -1345,10 +1345,10 @@
       },
       "notes": "Posts via middleman-blog; Markdown via kramdown. The repo has no GitHub Releases; 4.6.3 was published to RubyGems on 2026-02-16.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/middleman/middleman.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/middleman/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/middleman/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/middleman/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/middleman/middleman.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/middleman/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/middleman/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/middleman/generator.json"
       }
     },
     {
@@ -1384,10 +1384,10 @@
       },
       "notes": "Benchmarked with a minimal custom theme (single main.html) instead of the built-in themes; no plugins (search disabled). firstRelease from the first PyPI upload (0.2, 2014-01-21).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/mkdocs/mkdocs.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/mkdocs/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/mkdocs/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/mkdocs/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/mkdocs/mkdocs.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/mkdocs/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/mkdocs/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/mkdocs/generator.json"
       }
     },
     {
@@ -1427,10 +1427,10 @@
       },
       "notes": "Markdown via the kramdown filter. firstRelease from the official release notes (1.0, 2007-05-03); nanoc.app redirects to the homepage.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/nanoc/nanoc.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/nanoc/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/nanoc/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/nanoc/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/nanoc/nanoc.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/nanoc/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/nanoc/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/nanoc/generator.json"
       }
     },
     {
@@ -1468,10 +1468,10 @@
       },
       "notes": "Static export through nesta build. Nesta reads Key: value header blocks, so a local app.rb teaches its page loader YAML front matter (3minus); tilt is pinned to 2.4.0 because haml-contrib needs Tilt::MarukuTemplate. firstRelease from the first RubyGems release (2010-12-20).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/nesta/nesta.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/nesta/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/nesta/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Ruby/nesta/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/nesta/nesta.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/nesta/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/nesta/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Ruby/nesta/generator.json"
       }
     },
     {
@@ -1513,10 +1513,10 @@
       },
       "notes": "firstRelease from npm next 1.0.0 (2016-10-25). Markdown is not built in: this setup parses it with gray-matter and marked inside a Server Component. Built with output: 'export' and trailingSlash.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/nextjs-export/nextjs-export.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/nextjs-export/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/nextjs-export/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/nextjs-export/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/nextjs-export/nextjs-export.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/nextjs-export/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/nextjs-export/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/nextjs-export/generator.json"
       }
     },
     {
@@ -1560,10 +1560,10 @@
       },
       "notes": "Nextra 4.6.1 on Next.js 16.3.8, App Router, output: 'export' and trailingSlash. No Nextra theme: a bare layout and MDX wrapper render only the post; the index is a plain page listing the post slugs. Search (pagefind) is off: Nextra 4 only indexes through a separate postbuild script, which is not run. firstRelease is approximate (first nextra npm release in 2020).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/nextra/nextra.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/nextra/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/nextra/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/nextra/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/nextra/nextra.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/nextra/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/nextra/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/nextra/generator.json"
       }
     },
     {
@@ -1609,10 +1609,10 @@
       },
       "notes": "Nikola also supports Jinja2 themes; this variant uses Mako. firstRelease from the 1.1 git tag (2012-03-31); PyPI uploads start at 5.5 (2013).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/nikola-mako/nikola-mako.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/nikola-mako/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/nikola-mako/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/nikola-mako/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/nikola-mako/nikola-mako.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/nikola-mako/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/nikola-mako/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/nikola-mako/generator.json"
       }
     },
     {
@@ -1648,10 +1648,10 @@
       },
       "notes": "nimib is a library, not a CLI: a small Nim program (src/ssgrender.nim, compiled once in the image, untimed) reads the posts and calls nbInit/nbText/nbSave per post. The timed build is the compiled binary only.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Nim/nimib/nimib.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Nim/nimib/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Nim/nimib/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Nim/nimib/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Nim/nimib/nimib.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Nim/nimib/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Nim/nimib/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Nim/nimib/generator.json"
       }
     },
     {
@@ -1693,10 +1693,10 @@
       },
       "notes": "Nuxt 4.5.2 with @nuxt/content 3.16.1 (nuxt/content repository, first release 2020). Nuxt is an application framework; the content module makes it a Markdown site generator. Static output comes from nuxt generate.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/nuxt-content/nuxt-content.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/nuxt-content/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/nuxt-content/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/nuxt-content/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/nuxt-content/nuxt-content.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/nuxt-content/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/nuxt-content/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/nuxt-content/generator.json"
       }
     },
     {
@@ -1739,10 +1739,10 @@
       },
       "notes": "Pinned @observablehq/framework 1.13.4 (latest stable on 2026-10-05). The site disables the sidebar, table of contents, pager, search, header and footer; the index lists posts through a data loader (posts.json.js) read with FileAttachment.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/observable-framework/observable-framework.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/observable-framework/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/observable-framework/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/observable-framework/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/observable-framework/observable-framework.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/observable-framework/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/observable-framework/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/observable-framework/generator.json"
       }
     },
     {
@@ -1783,10 +1783,10 @@
       },
       "notes": "Benchmarked with a minimal custom theme (base, article, index) instead of notmyidea. firstRelease from the 1.1 git tag (2010-08-19); PyPI uploads start in 2014.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/pelican/pelican.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/pelican/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/pelican/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/pelican/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/pelican/pelican.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/pelican/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/pelican/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/pelican/generator.json"
       }
     },
     {
@@ -1825,10 +1825,10 @@
       },
       "notes": "Plenti reads JSON content only (content/<type>/*.json) and has no markdown support, so the build command converts the generated posts to JSON in one awk pass and the markdown body is rendered to HTML by marked inside the Svelte post layout. Upstream publishes linux amd64 release binaries only, so the image compiles the pinned tag v0.7.25 (cgo, bundled V8 from v8go) for amd64 and arm64. firstRelease is the repository creation year.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/plenti/plenti.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/plenti/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/plenti/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/plenti/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/plenti/plenti.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/plenti/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/plenti/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/plenti/generator.json"
       }
     },
     {
@@ -1866,10 +1866,10 @@
       },
       "notes": "The timed build runs the pre-compiled site executable, as a Publish site does on each build. Ink's metadata block cannot read the YAML tags list, so a custom publishing step parses the front matter and uses Ink for the Markdown body.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Swift/publish/publish.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Swift/publish/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Swift/publish/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Swift/publish/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Swift/publish/publish.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Swift/publish/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Swift/publish/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Swift/publish/generator.json"
       }
     },
     {
@@ -1905,10 +1905,10 @@
       },
       "notes": "License GPL-3.0 (GitHub SPDX). firstRelease is the oldest GitHub release, v1.0.0 (2025-05-13). Posts are compiled as subdocuments of one project in a single JVM process. The release zip is x64 only; the image reuses its platform-independent jars on the distro JRE so arm64 works.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Kotlin/quarkdown/quarkdown.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Kotlin/quarkdown/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Kotlin/quarkdown/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Kotlin/quarkdown/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Kotlin/quarkdown/quarkdown.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Kotlin/quarkdown/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Kotlin/quarkdown/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Kotlin/quarkdown/generator.json"
       }
     },
     {
@@ -1947,10 +1947,10 @@
       },
       "notes": "Benchmarked on plain markdown (no Jupyter or knitr engine). The CLI is TypeScript on Deno and drives the bundled Pandoc. License is MIT (COPYING.md; GitHub reports NOASSERTION because of the file name). firstRelease is the oldest GitHub release, v0.1.13 (2021-01-19).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Other/quarto/quarto.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Other/quarto/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Other/quarto/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Other/quarto/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Other/quarto/quarto.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Other/quarto/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Other/quarto/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Other/quarto/generator.json"
       }
     },
     {
@@ -1989,10 +1989,10 @@
       },
       "notes": "Distributed as a repository template, so the v5.0.0 sources are vendored into src/ and their plugins are installed from the pinned commits in quartz.lock.json at image build time. GitHub's latest-release marker still points at v4.0.8 (2023); v5.0.0 (2026-03-14) is the newest tag and the default branch. firstRelease is a best-effort year for Quartz 3 (Hugo-based, 2021-2022). This setup keeps only the content, folder-listing, GFM, link and draft plugins.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/quartz/quartz.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/quartz/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/quartz/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/quartz/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/quartz/quartz.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/quartz/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/quartz/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/quartz/generator.json"
       }
     },
     {
@@ -2035,10 +2035,10 @@
       },
       "notes": "firstRelease from npm rspress creation (2022-10-26); the 2.x line is published as @rspress/core (the unscoped rspress package stays on 1.x). This setup pins @rspress/core 2.0.23 and replaces the default theme Layout (theme/index.tsx) with a bare one: no nav, sidebar, outline, search or footer; it renders only the post, and the index page lists all posts.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/rspress/rspress.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/rspress/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/rspress/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/rspress/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/rspress/rspress.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/rspress/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/rspress/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/rspress/generator.json"
       }
     },
     {
@@ -2074,10 +2074,10 @@
       },
       "notes": "Installed from Packagist as sculpin/sculpin.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/PHP/sculpin/sculpin.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/PHP/sculpin/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/PHP/sculpin/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/PHP/sculpin/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/PHP/sculpin/sculpin.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/PHP/sculpin/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/PHP/sculpin/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/PHP/sculpin/generator.json"
       }
     },
     {
@@ -2113,10 +2113,10 @@
       },
       "notes": "soupault processes HTML only; Markdown is converted by an external cmark-gfm preprocessor configured in soupault.toml. Posts use content type none (no front matter) because soupault has no front matter parser.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/OCaml/soupault/soupault.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/OCaml/soupault/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/OCaml/soupault/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/OCaml/soupault/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/OCaml/soupault/soupault.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/OCaml/soupault/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/OCaml/soupault/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/OCaml/soupault/generator.json"
       }
     },
     {
@@ -2155,10 +2155,10 @@
       },
       "notes": "Sphinx 9.1.0 with MyST-Parser 5.1.0 (Markdown) and a minimal custom theme (single page.html) instead of alabaster; search, genindex and source copies disabled. firstRelease from Sphinx 0.1 (2008-03-21).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/sphinx/sphinx.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/sphinx/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/sphinx/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/sphinx/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/sphinx/sphinx.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/sphinx/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/sphinx/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/sphinx/generator.json"
       }
     },
     {
@@ -2203,10 +2203,10 @@
       },
       "notes": "Runs on Astro 7.3.5. firstRelease is the year of the first @astrojs/starlight npm release (2022). This setup uses Markdown posts and one MDX index page.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/starlight/starlight.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/starlight/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/starlight/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/starlight/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/starlight/starlight.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/starlight/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/starlight/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/starlight/generator.json"
       }
     },
     {
@@ -2245,10 +2245,10 @@
       },
       "notes": "Statiq.Web 1.0.0-beta.60 is the latest release (no stable 1.0 exists) and targets netcoreapp3.1; the app targets net10.0 and the image sets DOTNET_ROLL_FORWARD=Major. The app is restored and built in the image; the timed build runs the compiled app with no restore or network. Sitemap generation is disabled and links keep the .html extension.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/CSharp/statiq/statiq.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/CSharp/statiq/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/CSharp/statiq/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/CSharp/statiq/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/CSharp/statiq/statiq.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/CSharp/statiq/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/CSharp/statiq/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/CSharp/statiq/generator.json"
       }
     },
     {
@@ -2291,10 +2291,10 @@
       },
       "notes": "Application framework used as an SSG through adapter-static and mdsvex (Markdown compiled to Svelte components). firstRelease from the first public SvelteKit beta (2020). Minimal site: bare layout, one post route and one index route.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/sveltekit/sveltekit.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/sveltekit/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/sveltekit/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/sveltekit/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/sveltekit/sveltekit.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/sveltekit/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/sveltekit/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/sveltekit/generator.json"
       }
     },
     {
@@ -2330,10 +2330,10 @@
       },
       "notes": "firstRelease from the first Hex release 0.1.0 (2023-06-13). Markdown is rendered by MDEx (precompiled Rust NIF). Layouts are plain Elixir modules returning strings; Tableau also supports EEx, HEEx and Temple.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Elixir/tableau/tableau.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Elixir/tableau/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Elixir/tableau/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Elixir/tableau/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Elixir/tableau/tableau.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Elixir/tableau/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Elixir/tableau/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Elixir/tableau/generator.json"
       }
     },
     {
@@ -2377,10 +2377,10 @@
       },
       "notes": "Application framework used as an SSG through static prerendering (crawlLinks from the index route). Markdown posts are loaded at build time with import.meta.glob and rendered with marked inside server functions. Minimal site: bare root layout, one post route and one index route.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/tanstack-start/tanstack-start.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/tanstack-start/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/tanstack-start/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/tanstack-start/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/tanstack-start/tanstack-start.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/tanstack-start/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/tanstack-start/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/tanstack-start/generator.json"
       }
     },
     {
@@ -2422,10 +2422,10 @@
       },
       "notes": "Application framework used as an SSG through prerender: true and vike-react. Markdown is read at build time with import.meta.glob and rendered with marked inside the page data hook; a post route (/posts/@slug) with onBeforePrerenderStart lists every post URL. firstRelease from the first public vite-plugin-ssr release (2021), Vike's predecessor name.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vike/vike.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vike/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vike/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vike/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vike/vike.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vike/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vike/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vike/generator.json"
       }
     },
     {
@@ -2468,10 +2468,10 @@
       },
       "notes": "firstRelease from npm vite-ssg creation (2020-12-21). Vue 3 prerenderer used as an SSG; Markdown is compiled to Vue components by unplugin-vue-markdown and routes are built from import.meta.glob over the posts directory. Minimal site: bare app shell, one index route.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vite-ssg/vite-ssg.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vite-ssg/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vite-ssg/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vite-ssg/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vite-ssg/vite-ssg.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vite-ssg/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vite-ssg/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vite-ssg/generator.json"
       }
     },
     {
@@ -2510,10 +2510,10 @@
       },
       "notes": "firstRelease from npm vitepress creation (2020-04-30); the oldest GitHub release is v0.7.3 (2020-11-16). This setup uses a minimal custom theme (bare layout rendering the page content) and a createContentLoader data file for the index; no default theme, search or sidebar.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vitepress/vitepress.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vitepress/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vitepress/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vitepress/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vitepress/vitepress.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vitepress/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vitepress/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vitepress/generator.json"
       }
     },
     {
@@ -2557,10 +2557,10 @@
       },
       "notes": "Pinned to VuePress 2.0.0-rc.31 (no 2.x stable release exists; npm latest is 1.9.10, the v2 line ships as release candidates). Uses @vuepress/bundler-vite and a minimal local theme (one layout rendering only the page content, with a post list on the index built from a temp data file written by the theme's onPrepared hook); no default theme, navbar, sidebar or search. firstRelease from npm vuepress creation (2018-04-12).",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vuepress/vuepress.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vuepress/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vuepress/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/JavaScript/vuepress/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vuepress/vuepress.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vuepress/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vuepress/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/JavaScript/vuepress/generator.json"
       }
     },
     {
@@ -2598,10 +2598,10 @@
       },
       "notes": "Rust core distributed as a Python wheel; benchmarked with a minimal theme override (single main.html via theme.custom_dir) instead of the built-in Material-style theme. Search index and sitemap are always produced by the tool and counted in the output.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/zensical/zensical.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/zensical/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/zensical/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Python/zensical/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/zensical/zensical.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/zensical/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/zensical/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Python/zensical/generator.json"
       }
     },
     {
@@ -2637,10 +2637,10 @@
       },
       "notes": "Zine reads SuperMD (a Markdown dialect) with Ziggy front matter, which no canonical content type produces, so build.sh generates plain posts into posts/ and the timed build_command converts them in one awk process (zine-convert.awk: front matter plus heading and fence adjustments, no per-post forks) into content/posts/*.smd before zine release. Zine writes no cache between runs.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Zig/zine/zine.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Zig/zine/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Zig/zine/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Zig/zine/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Zig/zine/zine.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Zig/zine/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Zig/zine/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Zig/zine/generator.json"
       }
     },
     {
@@ -2676,10 +2676,10 @@
       },
       "notes": "firstRelease from the oldest GitHub release (v0.0.2, 2017-03-24); crates.io only starts in 2022.",
       "files": {
-        "dockerfile": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/zola/zola.dockerfile",
-        "benchmarkConfig": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/zola/benchmark_config.json",
-        "readme": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/zola/README.md",
-        "generatorJson": "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Rust/zola/generator.json"
+        "dockerfile": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/zola/zola.dockerfile",
+        "benchmarkConfig": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/zola/benchmark_config.json",
+        "readme": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/zola/README.md",
+        "generatorJson": "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Rust/zola/generator.json"
       }
     }
   ],

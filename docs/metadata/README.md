@@ -6,10 +6,10 @@
 
 | What | URL |
 |---|---|
-| Index | `https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/generators.json` |
-| Index schema | `https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/schema/generators.schema.json` |
-| `generator.json` schema | `https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/schema/generator.schema.json` |
-| One generator | `https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/<Lang>/<name>/generator.json` |
+| Index | `https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/generators.json` |
+| Index schema | `https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/schema/generators.schema.json` |
+| `generator.json` schema | `https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/schema/generator.schema.json` |
+| One generator | `https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/<Lang>/<name>/generator.json` |
 
 To pin a snapshot, replace `master` with a commit SHA. `raw.githubusercontent.com` caches responses for about 5 minutes.
 
@@ -19,7 +19,7 @@ To pin a snapshot, replace `master` with a commit SHA. `raw.githubusercontent.co
 |---|---|---|
 | `schemaVersion` | string (semver) | Version of this format; currently `1.0.0` |
 | `generatedFrom` | string or null | Commit the index was generated from, normally the parent of the commit that contains it |
-| `source` | URL | `https://github.com/ssgberk/ssg-frameworks` |
+| `source` | URL | `https://github.com/BenchCommons/catalog-ssg` |
 | `generators` | array | Benchmarked generators, sorted by `id` |
 | `proposed` | array | Generators not in the repo yet, sorted by `id` |
 
@@ -91,14 +91,14 @@ Rules for consumers:
 With curl and jq:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/generators.json \
+curl -fsSL https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/generators.json \
   | jq -r '.generators[] | select(.benchmark.status == "active") | [.id, .version, .language, .license] | @tsv'
 ```
 
 With JavaScript (browser, Deno or Node 18+):
 
 ```js
-const url = "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/generators.json";
+const url = "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/generators.json";
 const index = await (await fetch(url)).json();
 if (!index.schemaVersion.startsWith("1.")) throw new Error(`unsupported schema ${index.schemaVersion}`);
 for (const g of index.generators) console.log(`${g.name} ${g.version} (${g.language}) ${g.homepage}`);

@@ -40,7 +40,7 @@ A generator directory is any `<Lang>/<name>/` that contains `benchmark_config.js
   "firstRelease": 2013,
   "maintained": true,
   "benchmark": {"status": "active"},
-  "links": {"issue": "https://github.com/ssgberk/ssg-frameworks/issues/…"},
+  "links": {"issue": "https://github.com/BenchCommons/catalog-ssg/issues/…"},
   "notes": "…"
 }
 ```
@@ -66,7 +66,7 @@ The optional `versionFrom` field is `{"source": "dockerfile|npm|gem|composer|pip
 | `files.readme` | `<rawBase><path>/README.md` |
 | `files.generatorJson` | `<rawBase><path>/generator.json` |
 
-The default `rawBase` is `https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/`. `--raw-base URL` overrides it; the URL must end in `/`.
+The default `rawBase` is `https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/`. `--raw-base URL` overrides it; the URL must end in `/`.
 
 #### Version extraction
 
@@ -86,7 +86,7 @@ The candidate names are `[id, id-before-first-dash]`, for example `metalsmith-ha
 {
   "schemaVersion": "1.0.0",
   "generatedFrom": "<40-hex sha> | null",
-  "source": "https://github.com/ssgberk/ssg-frameworks",
+  "source": "https://github.com/BenchCommons/catalog-ssg",
   "generators": [ …entries sorted by id… ],
   "proposed": [ {"id", "name", "language", "repository", "status": "proposed|planned", "issue"?, "spec"?, "notes"?} … sorted by id ]
 }

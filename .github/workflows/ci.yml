@@ -42,7 +42,7 @@ jobs:
           path: frameworks
       - uses: actions/checkout@v4
         with:
-          repository: ssgberk/benchmark-tool
+          repository: BenchCommons/tools-benchmark
           path: bt
       - id: diff
         env:
@@ -88,7 +88,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: ssgberk/benchmark-tool
+          repository: BenchCommons/tools-benchmark
       - uses: actions/checkout@v4
         with:
           path: frameworks
