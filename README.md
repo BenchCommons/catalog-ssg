@@ -1,4 +1,4 @@
-# ssg-frameworks
+# catalog-ssg
 
 Static site generators benchmarked by [SSGBerk](https://github.com/ssgberk). Each generator lives in `<Lang>/<name>/` with a dockerfile, a `benchmark_config.json`, the canonical `build.sh`, a minimal site in `src/` and a `generator.json`. The generator contract is in `docs/specs/001-canonical-build-runner/plan.md`.
 
@@ -32,7 +32,7 @@ Versions come from [`generators.json`](generators.json); content type and output
 2. Write `<name>.dockerfile` following the skeleton in `docs/specs/001-canonical-build-runner/plan.md` (`ubuntu:24.04`, architecture via `dpkg --print-architecture`, pinned generator version).
 3. Add a minimal site in `src/` and a `benchmark_config.json`; set `output_folder` and `output_glob` so the glob matches exactly one file per post.
 4. Add `generator.json` and run `python3 tools/build_index.py`.
-5. Run `./ssgberk --test <name> -nf 10` from [tools-benchmark](https://github.com/ssgberk/benchmark-tool) with this repo checked out as `frameworks/`.
+5. Run `./ssgberk --test <name> -nf 10` from [tools-benchmark](https://github.com/BenchCommons/tools-benchmark) with this repo checked out as `frameworks/`.
 
 ## CI
 
@@ -42,6 +42,6 @@ Versions come from [`generators.json`](generators.json); content type and output
 
 [`generators.json`](generators.json) is a machine-readable index of every generator, including name, homepage, license, pinned version, benchmark settings and raw file URLs. It also lists the generators proposed in issues.
 
-- Raw URL: `https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/generators.json`
+- Raw URL: `https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/generators.json`
 - The format, field reference, versioning policy and examples are in [`docs/metadata/README.md`](docs/metadata/README.md).
 - To regenerate it, run `python3 tools/build_index.py`. CI runs `--check`.

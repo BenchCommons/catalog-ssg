@@ -247,7 +247,7 @@ def test_invalid_json_is_reported(repo):
 def test_proposed_duplicate_of_generator(repo):
     (repo / "tools" / "proposed.json").write_text(json.dumps([{
         "id": "alpha", "name": "Alpha", "language": "Go", "repository": "https://github.com/example/alpha",
-        "status": "proposed", "issue": "https://github.com/ssgberk/ssg-frameworks/issues/1"}]))
+        "status": "proposed", "issue": "https://github.com/BenchCommons/catalog-ssg/issues/1"}]))
     _, errors = bi.build(repo)
     assert any("alpha" in e and "proposed" in e for e in errors)
 
@@ -313,7 +313,7 @@ def test_derived_fields(repo):
         "contentFolder": "content/posts", "buildCommand": "alpha build", "outputFolder": "public",
         "outputGlob": "posts/*/index.html", "cacheFolders": ["resources/_gen"],
     }
-    base = "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/Go/alpha/"
+    base = "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/Go/alpha/"
     assert alpha["files"] == {
         "dockerfile": base + "alpha.dockerfile",
         "benchmarkConfig": base + "benchmark_config.json",
@@ -335,7 +335,7 @@ def test_top_level(repo):
     assert list(index)[:4] == ["schemaVersion", "generatedFrom", "source", "generators"]
     assert index["schemaVersion"] == bi.SCHEMA_VERSION
     assert index["generatedFrom"] == "a" * 40
-    assert index["source"] == "https://github.com/ssgberk/ssg-frameworks"
+    assert index["source"] == "https://github.com/BenchCommons/catalog-ssg"
     assert [g["id"] for g in index["generators"]] == ["alpha", "zeta"]
 
 

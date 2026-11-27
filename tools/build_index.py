@@ -21,8 +21,8 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 SCHEMA_VERSION = "1.0.0"
-SOURCE = "https://github.com/ssgberk/ssg-frameworks"
-DEFAULT_RAW_BASE = "https://raw.githubusercontent.com/ssgberk/ssg-frameworks/master/"
+SOURCE = "https://github.com/BenchCommons/catalog-ssg"
+DEFAULT_RAW_BASE = "https://raw.githubusercontent.com/BenchCommons/catalog-ssg/master/"
 INDEX_FILE = "generators.json"
 PROPOSED_FILE = "tools/proposed.json"
 
